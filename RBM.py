@@ -51,6 +51,12 @@ def  derivative(rbm_ansatz, s ,a ,b ,W ):
     return log_derivative_a * rbm_ansatz(s,a,b,W), log_derivative_b * rbm_ansatz(s,a,b,W), log_derivative_W *  rbm_ansatz(s,a,b,W)
 
 
+def random_state_amp(N):
+    dim = 2 ** N
+    state_amp = np.random.rand(dim) + 1j * np.random.rand(dim)
+
+    return state_amp 
+
 
 
 
