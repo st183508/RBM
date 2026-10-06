@@ -57,6 +57,14 @@ def random_state_amp(N):
 
     return state_amp 
 
+def loss_function(rbm_ansatz, s, a, b, W):
+
+    loss_a = 0
+    loss_b = 0    
+
+    for i in range(N):
+        
+
 
 
 
