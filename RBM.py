@@ -64,7 +64,7 @@ def loss_function(rbm_ansatz, s, a, b, W):
 
     for i in range(N):
         
-
+        return 0
 
 
 
